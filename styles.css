@@ -1,0 +1,73 @@
+* {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 375;
+}
+
+body{
+    margin: 0px;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#titulo{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bolder;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: 1%;
+}
+
+h3{
+    font-weight: bolder;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: 1%;
+}
+
+img{
+    border-radius: 5px;
+    margin-left: 38%;
+}
+
+#banner div{
+    background-image: url('https://media.campsaround.com/mainweb/wp-content/uploads/elementor/thumbs/Camping-Guide-For-Beginners-Things-You-Must-Know-Before-You-Go-Camping-qba0ht61e1j66skcprk1o33vs0q6uao1vbtwalosq8.png');
+    background-size: cover;
+    
+}
+
+#logo div{
+    margin-bottom: 1%;
+    margin-right: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+p{
+    text-align: center;
+}
+
+strong{
+    font-weight: bold;
+}
