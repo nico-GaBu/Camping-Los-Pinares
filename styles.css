@@ -71,3 +71,22 @@ p{
 strong{
     font-weight: bold;
 }
+
+table{
+    color: white;
+}
+
+th, td{
+    color: black;
+}
+
+.columna1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.columna2{
+    color: black;
+    text-align: center;
+}
