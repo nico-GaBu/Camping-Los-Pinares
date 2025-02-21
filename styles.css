@@ -1,92 +1,90 @@
 * {
-    font-family: "Montserrat", serif;
-    font-optical-sizing: auto;
-    font-weight: 375;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    margin: 0px;
-    padding-left: 3%;
-    padding-right: 3%;
-    
+body {
+    margin: 0;
+    padding: 3%;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-h1{
-    font-weight: bolder;
-    text-align: center;
-    text-decoration-line: underline;
-}
-
-#titulo{
-    color: darkgreen;
+h1, h2, h3 {
     font-weight: bold;
-}
-
-h2{
-    font-weight: bolder;
     text-align: center;
-    text-decoration-line: underline;
-    margin-bottom: 1%;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }
 
-h3{
-    font-weight: bolder;
-    text-align: center;
-    text-decoration-line: underline;
-    margin-bottom: 1%;
+h1 {
+    color: darkgreen;
 }
 
-img{
+h2 {
+    color: #2e8b57;
+}
+
+h3 {
+    color: #3b7d3b;
+}
+
+img {
     border-radius: 5px;
-    margin-left: 38%;
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    margin-bottom: 2%;
 }
 
-#banner div{
-    background-image: url('https://media.campsaround.com/mainweb/wp-content/uploads/elementor/thumbs/Camping-Guide-For-Beginners-Things-You-Must-Know-Before-You-Go-Camping-qba0ht61e1j66skcprk1o33vs0q6uao1vbtwalosq8.png');
-    background-size: cover;
-    
-}
-
-#logo div{
-    margin-bottom: 1%;
-    margin-right: 100%;
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 ul {
+    list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 ul li {
-    text-align: center;
-    margin: 5px;
+    background: #d4edda;
+    color: #155724;
     padding: 10px;
+    margin: 5px auto;
     border-radius: 5px;
+    width: 80%;
 }
 
-
-p{
+p {
     text-align: center;
+    line-height: 1.6;
 }
 
-strong{
+strong {
     font-weight: bold;
 }
 
-table{
-    color: white;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
 }
 
-th, td{
-    color: black;
-}
-
-.columna1{
-    background-color: black;
-    color: white;
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
     text-align: center;
 }
 
-.columna2{
-    color: black;
-    text-align: center;
+th {
+    background: black;
+    color: white;
 }
